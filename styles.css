@@ -1,0 +1,53 @@
+body,html {
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#title, #description {
+    text-align: center;
+
+}
+#description {
+    margin-bottom:0px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+
+#survey-form {
+    border: 2px solid;
+    width:600px; 
+}
+
+#personal-details input {
+    display:block;
+    width:80%;
+    height:25px;
+    margin:5px 0;
+}
+
+#dropdown {
+    display:block;
+    width:80%;
+    height:25px;
+    margin: 5px 0;
+}
+
+#dropdown {
+    width:81%;
+    height:25px;
+}
+
+fieldset {
+    border: none;
+}
+
+
+
